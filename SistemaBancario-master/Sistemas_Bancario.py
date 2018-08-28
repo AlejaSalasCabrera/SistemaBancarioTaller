@@ -89,6 +89,7 @@ print("1. Crear Usuario")
 print("2. Solicitar Prestamo")
 print("3. Pagar cuotas")
 print("4. Reportes")
+print("5. Salir")
 print("\n")
 opc =int(input("Digite la opcion del MENU PRINCIPAL: "))
 
