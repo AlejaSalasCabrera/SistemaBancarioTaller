@@ -104,8 +104,8 @@ while opc != 5:
     elif opc == 2:
         if user:
             usuario.Registrar_prestamo()
-            print(pres)
-            print(cuo)
+            #print(pres)
+            #print(cuo)
             print("\n")
         else:
             print("no hay usuarios registrados")
