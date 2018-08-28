@@ -51,6 +51,7 @@ class Cuota:
 
     def Numero_Cuota_Mora(self):
 
+
         for c_p_m in cuo:
             if c_p_m['estado'] == False:
                 cm = cm+1
