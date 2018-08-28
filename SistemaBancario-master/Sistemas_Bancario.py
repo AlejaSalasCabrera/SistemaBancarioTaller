@@ -110,7 +110,6 @@ while opc != 5:
     elif opc == 3:
         if pres:
             usuario.Mostar_Pagar_cuota()
-            #print(cuo)
             print("\n")
         else:
             print("No hay prestamos realizados")
@@ -129,17 +128,14 @@ while opc != 5:
                 if nopc == 1:
                     print("\n")
                     usuario.Cuotas_pagadas()
-                    #print("1,1")
                     print("\n")
                 elif nopc == 2:
                     print("\n")
                     usuario.Numero_Cuota_Mora()
-                    #print("1,2")
                     print("\n")
                 elif nopc == 3:
                     print("\n")
                     usuario.Todos_Prestamo()
-                    #print("1,3")
                     print("\n")
                 else:
                     print('La opcion digitada no existe')
